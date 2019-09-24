@@ -15,11 +15,13 @@ using namespace std;
  * 
  */
 int main() {
-
-    Function(0,10,0,3);
-    return 0;
-    
+//lista_de_coordenadas(0,0,10,3);
+	//dibujar_matriz(); 
+	dibujar_matriz(lista_de_coordenadas(0,0,10,3)); 
+	getchar();
+	return 0;     
 }
+
 
 
 
